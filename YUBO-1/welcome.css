@@ -1,0 +1,59 @@
+.welcome {
+  width: 100vw;
+  height: calc(100vw * (896 / 414));
+  background-image: url("./assets/welcome-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.welcome .brand {
+  width: calc((183 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((48 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  top: calc((37 / 896) * (100vw * (896 / 414)));
+  left: calc((50 / 414) * 100vw);
+}
+
+.welcome .welcome-t1 {
+  width: calc((414 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((332 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  top: calc((92 / 896) * (100vw * (896 / 414)));
+  left: 0;
+}
+
+.welcome .welcome-t2 {
+  width: calc((65 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((26 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  bottom: calc((320 / 896) * (100vw * (896 / 414)));
+  right: calc((30 / 414) * 100vw);
+}
+
+.welcome .welcome-t3 {
+  width: calc((223 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((183 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  bottom: calc((93 / 896) * (100vw * (896 / 414)));
+  left: calc((30 / 414) * 100vw);
+}
+
+.welcome .welcome-btn {
+  border: none;
+  background: transparent;
+  position: absolute;
+  bottom: calc((93 / 896) * (100vw * (896 / 414)));
+  right: calc((30 / 414) * 100vw);
+  text-decoration: none;
+  color: inherit;
+}
+
+.welcome .welcome-btn img {
+  width: calc((88 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((113 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+}

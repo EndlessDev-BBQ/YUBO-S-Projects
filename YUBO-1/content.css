@@ -1,0 +1,102 @@
+.content {
+  width: 100vw;
+  height: calc(100vw * (896 / 414));
+  background-image: url("./assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.content img.txt1 {
+  width: calc((190 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((50 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  top: calc((34 / 896) * (100vw * (896 / 414)));
+  right: calc((30 / 414) * 100vw);
+}
+
+.content img.txt2 {
+  width: calc((100 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((29 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  top: calc((312 / 896) * (100vw * (896 / 414)));
+  left: calc((40 / 414) * 100vw);
+}
+
+.content img.txt3 {
+  width: calc((65 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((26 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  top: calc((588 / 896) * (100vw * (896 / 414)));
+  right: calc((30 / 414) * 100vw);
+}
+
+.content img.txt4 {
+  width: calc((414 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((6 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  bottom: calc((21 / 896) * (100vw * (896 / 414)));
+  left: 0px;
+}
+
+.content .warrior {
+  width: calc((213 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((213 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+}
+
+.content .warrior .warrior-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.content .warrior .warrior-btn {
+  width: calc((23 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((23 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content .warrior.sako .warrior-name {
+  width: calc((45 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((53 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+}
+
+.content .warrior.sako {
+  position: absolute;
+  top: calc((102 / 896) * (100vw * (896 / 414)));
+}
+.content .warrior.sako .warrior-name,
+.content .warrior.riki .warrior-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.content .warrior.lia {
+  position: absolute;
+  top: calc((361 / 896) * (100vw * (896 / 414)));
+}
+
+.content .warrior.lia .warrior-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: calc((28 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((53 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+}
+
+.content .warrior.riki {
+  position: absolute;
+  top: calc((620 / 896) * (100vw * (896 / 414)));
+}
+
+.content .warrior.riki .warrior-name {
+  width: calc((32 / 414) * 100vw); /* 按 414 宽度比例缩放 */
+  height: calc((53 / 896) * (100vw * (896 / 414))); /* 按 896 高度比例缩放 */
+}
